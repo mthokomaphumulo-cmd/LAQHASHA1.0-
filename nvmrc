@@ -1,4 +1,0 @@
-18
-git add .nvmrc
-git commit -m "Pin Node 18 for Netlify"
-git push
