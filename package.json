@@ -1,5 +1,19 @@
-File Name,Purpose
-vite.config.ts,Configures the Vite bundler for React/TSX
-tsconfig.json,Sets up TypeScript compiler options
-index.html,Defines the script entry point for bundling
-netlify.toml,Ensures Single Page Application (SPA) routing works correctly on Netlify (prevents 404 errors)
+{
+  "name": "laqhasha",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^5.0.0"
+  }
+}
